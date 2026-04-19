@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+    <h2>Login</h2>
+
+    <form onsubmit="return validateLogin()">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="email" required>
+        <input type="password" id="password" placeholder="Password" required>
+<input type="city" id="city" placeholder="city" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <p id="error"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
